@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+}
+
+.main-containor {
+    display: flex;
+    justify-content: center;
+}
+
+.inner-divs {
+    height: 150px;
+    width: 150px;
+    border: 8px solid black;
+    border-radius: 40px;
+    margin: 20px;
+}
+
+.red {
+    background-color: #d95980;
+}
+
+.yellow {
+    background-color: #f99b45;
+}
+
+.green {
+    background-color: #63aac0;
+}
+
+.purple {
+    background-color: #819ff9;
+}
+
+.blink {
+    background-color: white;
+}
+
+.user-blink {
+    background-color: green;
+}
+
+.game-over {
+    background-color: red;
+}
