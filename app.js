@@ -65,7 +65,7 @@ function checking(idx) {
             setTimeout(levelUp(),5000);
         }
     } else {
-        h1.innerText = "Game Over Laure !";
+        h1.innerText = "Game Over !";
         h4.innerHTML = `<b>YOUR SCORE : ${level}<br> Highest Score : ${highScore=level}</b><br>For start again to press any key on your keyboard.`;
         body.classList.add("game-over");
         setTimeout(function() {
